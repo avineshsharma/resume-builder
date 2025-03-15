@@ -1,17 +1,31 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-import './App.css'
+// import { useState } from 'react'
 
-function App() {
-  const [count, setCount] = useState(0)
+// import './App.css'
+// import App1 from "./App1"
+function App () {
+  let counter = 5 
 
+   const addvalue=()=>
+    {
+      // counter = counter +1
+      console.log("value-add",counter )
+
+    } 
+    const removevalue =()=>{
+      console.log ("remove-value",Math.random())
+    }
   return (
     <>
-      <div className='root'>
-        <h1>working</h1>
-      </div>
+    <h1>1 day</h1>
+    <h2>working and count value :: {counter} </h2>
+
+    <button onClick={addvalue}>
+      add value{counter} </button>
+    <br />
+    <button onClick={removevalue}>
+      remove value{counter}</button>
     </>
+    //  <App/> 
   )
 }
 
