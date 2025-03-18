@@ -2,8 +2,9 @@
 import React from 'react'
 import Header from './components/Header/Header'
 
-import './App.css'
-// import App1 from "./App1"
+// import './App.css'
+
+
 function App() {
 
   // let [counter, setcounter] = useState(5)
