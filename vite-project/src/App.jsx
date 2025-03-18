@@ -1,6 +1,7 @@
 // import { useState } from 'react'
 import React from 'react'
 import Header from './components/Header/Header'
+import Body from './components/Header/Body/Body'
 
 // import './App.css'
 
@@ -34,9 +35,10 @@ function App() {
         <header /> */}
       
         <Header/>
+        <Body/>
     </>
-    //  <App/> 
+  
   )
 }
 
-export default App
+export default App 

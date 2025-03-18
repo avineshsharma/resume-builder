@@ -1,5 +1,7 @@
 import React from "react";
-import resumesvg from "../../assets/resume.svg"
+
+import resumesvg from "../../assets/resume.svg";
+
 import style from './Header.module.css'
 
 function Header() {
