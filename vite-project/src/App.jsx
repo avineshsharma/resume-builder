@@ -3,7 +3,7 @@ import React from 'react'
 import Header from './components/Header/Header'
 import Body from './components/Header/Body/Body'
 
-// import './App.css'
+import './App.css'
 
 
 function App() {
@@ -38,7 +38,7 @@ function App() {
         <Body/>
     </>
   
-  )
+  );
 }
 
 export default App 
